@@ -5,6 +5,8 @@
 PNG Alpha Remover is a lightweight frontend tool that processes PNG files locally in the browser.
 This repository provides a drag-and-drop interface, removes the alpha channel from each PNG file, and automatically downloads the processed results.
 
+[Use PNG Alpha Remover](https://rawcdn.githack.com/xremix/PNG-Alpha-Remover/faf44276c36b2e887296cd3513ad2a83c94539bd/png-alpha-remover.html)
+
 ## What This Repository Does
 
 - Provides a modern drag-and-drop upload area
