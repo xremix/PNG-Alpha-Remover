@@ -396,6 +396,65 @@ body::before {
     margin: 28px 0 0;
 }
 
+.seo-content {
+    margin-top: 30px;
+}
+
+.seo-content h2 {
+    margin: 26px 0 12px;
+    font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+    letter-spacing: -0.02em;
+}
+
+.seo-content h3 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: var(--text);
+}
+
+.seo-content p,
+.seo-content li {
+    color: var(--muted);
+    line-height: 1.65;
+    font-size: 0.96rem;
+}
+
+.seo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.seo-card {
+    padding: 18px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(45, 212, 191, 0.05));
+    border: 1px solid var(--border);
+}
+
+.seo-card p {
+    margin: 0;
+}
+
+.seo-faq {
+    margin-top: 22px;
+    padding: 18px 20px;
+    border-radius: 16px;
+    background: rgba(8, 16, 14, 0.45);
+    border: 1px solid var(--border);
+}
+
+.seo-faq ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.seo-faq li + li {
+    margin-top: 8px;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -412,4 +471,5 @@ body::before {
     body { padding: 14px; }
     .app { border-radius: 18px; padding: 18px; }
     .drop-zone { padding: 28px 16px; }
+    .seo-grid { grid-template-columns: 1fr; }
 }

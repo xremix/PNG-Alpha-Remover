@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PNG Alpha Remover</title>
+    <meta name="description" content="Remove transparency from PNG files in your browser. Flatten alpha channels, create non-transparent PNGs, reduce compatibility issues, and prepare PNG assets for app stores, design exports, and upload workflows.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -45,6 +46,61 @@
         </div>
 
         <div class="list" id="resultList" hidden></div>
+
+        <section class="seo-content" aria-labelledby="seo-heading">
+            <div class="divider" aria-hidden="true"></div>
+            <h2 id="seo-heading">Why remove transparency from a PNG?</h2>
+            <p>
+                PNG files often include an alpha channel even when a transparent background is not useful anymore.
+                This tool helps you convert transparent PNG files into standard non-transparent PNGs directly in the browser,
+                which can make assets easier to upload, preview, compress, and reuse across design and publishing workflows.
+            </p>
+
+            <div class="seo-grid">
+                <article class="seo-card">
+                    <h3>Design exports from Figma and similar tools</h3>
+                    <p>
+                        Design tools often export PNGs with transparency by default. If you need a solid background for a mockup,
+                        marketplace listing, documentation page, or email graphic, removing the alpha channel is a quick cleanup step.
+                    </p>
+                </article>
+
+                <article class="seo-card">
+                    <h3>App Store and marketplace image preparation</h3>
+                    <p>
+                        Some submission workflows, preview systems, and storefront asset pipelines expect flat images without transparency.
+                        Converting a PNG to a fully opaque version can prevent unexpected backgrounds, rejected uploads, or inconsistent previews.
+                    </p>
+                </article>
+
+                <article class="seo-card">
+                    <h3>Smaller files and simpler delivery</h3>
+                    <p>
+                        If transparency is no longer needed, flattening the image can reduce complexity and may help produce smaller assets,
+                        especially when the original file contains large semi-transparent regions that do not add value.
+                    </p>
+                </article>
+
+                <article class="seo-card">
+                    <h3>Better compatibility in older or rigid workflows</h3>
+                    <p>
+                        Some CMS tools, ad platforms, print pipelines, thumbnail generators, or custom upload forms handle non-transparent images more reliably.
+                        A plain PNG with no alpha channel can avoid rendering surprises on light or dark backgrounds.
+                    </p>
+                </article>
+            </div>
+
+            <section class="seo-faq" aria-labelledby="faq-heading">
+                <h3 id="faq-heading">Common use cases</h3>
+                <ul>
+                    <li>Turn a transparent logo or screenshot into a white-background PNG for documentation or sales pages.</li>
+                    <li>Prepare screenshots for app listing uploads when transparent edges create visual issues.</li>
+                    <li>Export assets from Figma, Sketch, Photopea, or similar tools and flatten them before delivery.</li>
+                    <li>Remove accidental transparency before sending images to clients, marketplaces, or content teams.</li>
+                    <li>Create PNGs that look consistent in systems that do not preview transparency well.</li>
+                </ul>
+            </section>
+        </section>
     </main>
 
    <script src="main.js"></script>
